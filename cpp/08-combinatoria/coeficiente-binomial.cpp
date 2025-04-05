@@ -16,7 +16,7 @@ int CoeficienteBinomialAnalitico(int n, int m) {
     //TODO
 }
 
-int CoeficienteBinomialRecursivo() {
+int CoeficienteBinomialRecursivo(int n, int m) {
     if (n == 0 || n == m)
         return 1;
     return CoeficienteBinomialRecursivo(n-1, m-1) + CoeficienteBinomialRecursivo(n-1, m);
